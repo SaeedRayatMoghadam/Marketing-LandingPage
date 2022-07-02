@@ -40,3 +40,10 @@ button.btn-intro {
 button.btn-intro:hover {
     transform: scale(1.1);
 }
+
+/* ABOUT */
+.about-bg{
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+/* ABOUT */
