@@ -47,3 +47,11 @@ button.btn-intro:hover {
   padding: 50px;
 }
 /* ABOUT */
+
+
+/* COUNTS */
+.counts i {
+  font-size: 40px;
+  color: #4154f1;
+}
+/* COUNTS */

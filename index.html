@@ -12,6 +12,7 @@
       integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -147,7 +148,7 @@
           </div>
         </div>
         <div class="row g-4">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="card shadow">
               <img
                 src="./images/values/1.png"
@@ -163,7 +164,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="card shadow">
               <img
                 src="./images/values/2.png"
@@ -179,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="card shadow">
               <img
                 src="./images/values/3.png"
@@ -200,10 +201,64 @@
     </section>
     <!-- Values -->
 
+
+    <!-- Counts -->
+    <section class="counts my-4">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center align-items-center shadow py-2">
+              <i class="bi bi-emoji-smile"></i>
+              <div class="ms-3">
+                <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                data-purecounter-end="1001">0</span>
+                <p>لورم ایپسوم متن</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center align-items-center shadow py-2">
+              <i class="bi bi-journal-richtext text-warning"></i>
+              <div class="ms-3">
+                <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                data-purecounter-end="802">0</span>
+                <p>لورم ایپسوم متن</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center align-items-center shadow py-2">
+              <i class="bi bi-headset text-success"></i>
+              <div class="ms-3">
+                <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                data-purecounter-end="503">0</span>
+                <p>لورم ایپسوم متن</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center align-items-center shadow py-2">
+              <i class="bi bi-people text-secondary"></i>
+              <div class="ms-3">
+                <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                data-purecounter-end="4030">0</span>
+                <p>لورم ایپسوم متن</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counts -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+        <script>
+            new PureCounter();
+        </script>
   </body>
 </html>
