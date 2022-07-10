@@ -220,3 +220,19 @@ button.btn-intro:hover {
   height: 100%;
 }
 /* CONTACT */
+
+
+/* FOOTER */
+footer a {
+  text-decoration: none;
+  color: #000 !important;
+}
+.hr-secondary {
+  width: 70%;
+  height: 5px;
+}
+
+footer .container-fluid {
+  background-color: #fafbff;
+}
+/* FOOTER */
