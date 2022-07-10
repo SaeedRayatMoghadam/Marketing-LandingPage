@@ -23,6 +23,8 @@
       defer
       src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"
     ></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -88,15 +90,17 @@
     <!-- Navbar -->
 
     <!-- INTRO -->
-    <section class="intro d-flex align-items-center mt-5 mt-lg-0">
+    <section class="intro d-flex align-items-center mt-5 mt-lg-0 overflow-hidden">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <h3 class="fw-bold text-primary">
+            <h3 class="fw-bold text-primary" data-aos="fade-up">
               شرکت و هولدینگ مارکتینگ با 10 سال سابقه همراه با بهترین متخصصین
             </h3>
-            <h3 class="text-muted mt-4">ارتقا کسب و کار و افزایش فروش</h3>
-            <button class="btn btn-primary mt-2 btn-intro">
+            <h3 class="text-muted mt-4" data-aos="fade-up">
+              ارتقا کسب و کار و افزایش فروش
+            </h3>
+            <button class="btn btn-primary mt-2 btn-intro" data-aos="fade-up">
               اطلاعات بیشتر
             </button>
           </div>
@@ -105,6 +109,8 @@
               src="./images/intro/intro-img.png"
               alt="Intro-Image"
               class="img-fluid"
+              data-aos="zoom-out"
+              data-aos-delay="200"
             />
           </div>
         </div>
@@ -113,28 +119,36 @@
     <!-- INTRO -->
 
     <!-- ABOUT -->
-    <section class="d-flex align-items-center my-5">
+    <section class="d-flex align-items-center my-5 overflow-hidden">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="about-bg">
-              <h3 class="text-primary">
+              <h3 class="text-primary" data-aos="fade-up">
                 شرکت و هولدینگ مارکتینگ با 10 سال سابقه
               </h3>
-              <h2 class="fw-bold mt-4">ارتقا کسب و کار و افزایش فروش</h2>
-              <p>
+              <h2 class="fw-bold mt-4" data-aos="fade-up">
+                ارتقا کسب و کار و افزایش فروش
+              </h2>
+              <p data-aos="fade-up">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
                 استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
                 نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
               </p>
-              <button class="btn btn-primary mt-2 btn-intro">
+              <button class="btn btn-primary mt-2 btn-intro" data-aos="fade-up">
                 همکاری با ما
               </button>
             </div>
           </div>
           <div class="col-lg-6">
-            <img src="./images/about.jpg" alt="About-Image" class="img-fluid" />
+            <img
+              src="./images/about.jpg"
+              alt="About-Image"
+              class="img-fluid"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            />
           </div>
         </div>
       </div>
@@ -142,16 +156,20 @@
     <!-- ABOUT -->
 
     <!-- Values -->
-    <section class="my-5">
+    <section class="my-5 overflow-hidden">
       <div class="container">
         <div class="row mb-4">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-up">
             <h2 class="text-primary fw-bold">لورم ایپسوم</h2>
             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
           </div>
         </div>
         <div class="row g-4">
-          <div class="col-md-6 col-lg-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
             <div class="card shadow">
               <img
                 src="./images/values/1.png"
@@ -167,7 +185,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
             <div class="card shadow">
               <img
                 src="./images/values/2.png"
@@ -183,7 +205,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
             <div class="card shadow">
               <img
                 src="./images/values/3.png"
@@ -205,10 +231,14 @@
     <!-- Values -->
 
     <!-- Counts -->
-    <section class="counts my-4">
+    <section class="counts my-4 overflow-hidden">
       <div class="container">
         <div class="row g-4">
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-down-left"
+            data-aos-delay="100"
+          >
             <div
               class="d-flex justify-content-center align-items-center shadow py-2"
             >
@@ -224,7 +254,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-down-left"
+            data-aos-delay="200"
+          >
             <div
               class="d-flex justify-content-center align-items-center shadow py-2"
             >
@@ -240,7 +274,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-down-left"
+            data-aos-delay="300"
+          >
             <div
               class="d-flex justify-content-center align-items-center shadow py-2"
             >
@@ -256,7 +294,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-down-left"
+            data-aos-delay="400"
+          >
             <div
               class="d-flex justify-content-center align-items-center shadow py-2"
             >
@@ -278,10 +320,10 @@
     <!-- Counts -->
 
     <!-- Features -->
-    <section class="features my-5">
+    <section class="features my-5 overflow-hidden">
       <div class="container">
         <div class="row mb-4">
-          <h4>لورم ایپسوم متن ساختگی با تولید نامفهوم</h4>
+          <h4 data-aos="fade-up">لورم ایپسوم متن ساختگی با تولید نامفهوم</h4>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-4">
@@ -289,11 +331,12 @@
               src="./images/features/1.png"
               class="img-fluid"
               alt="Features"
+              data-aos="zoom-out"
             />
           </div>
           <div class="col-lg-8">
             <div class="row gy-3 mt-4">
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-down" data-aos-delay="100">
                 <div class="d-flex">
                   <i class="bi bi-folder-fill me-2"></i>
                   <div>
@@ -305,7 +348,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
                 <div class="d-flex">
                   <i class="bi bi-stack me-2"></i>
                   <div>
@@ -317,7 +360,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-down" data-aos-delay="200">
                 <div class="d-flex">
                   <i class="bi bi-credit-card-2-front-fill me-2"></i>
                   <div>
@@ -329,7 +372,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
                 <div class="d-flex">
                   <i class="bi bi-cloud-check-fill me-2"></i>
                   <div>
@@ -341,7 +384,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-down" data-aos-delay="300">
                 <div class="d-flex">
                   <i class="bi bi-file-earmark-code-fill me-2"></i>
                   <div>
@@ -353,7 +396,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="fade-down" data-aos-delay="350">
                 <div class="d-flex">
                   <i class="bi bi-envelope me-2"></i>
                   <div>
@@ -373,14 +416,14 @@
     <!-- Features -->
 
     <!-- SERVICES -->
-    <section class="services my-5">
+    <section class="services my-5 overflow-hidden">
       <div class="container">
         <div class="row">
-          <h2>لورم ایپسوم</h2>
-          <p>لورم ایپسوم متن ساختگی با تولید نامفهوم</p>
+          <h2 data-aos="fade-up">لورم ایپسوم</h2>
+          <p data-aos="fade-up">لورم ایپسوم متن ساختگی با تولید نامفهوم</p>
         </div>
         <div class="row gy-3">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-down" data-aos-delay="100">
             <div class="service-box box-blue">
               <i class="bi bi-chat-left-text-fill service-box-icon"></i>
               <h3 class="fw-bold">لورم ایپسوم</h3>
@@ -391,7 +434,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-down" data-aos-delay="200">
             <div class="service-box box-orange">
               <i class="bi bi-chat-left-text-fill service-box-icon"></i>
               <h3 class="fw-bold">لورم ایپسوم</h3>
@@ -402,7 +445,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-down" data-aos-delay="300">
             <div class="service-box box-green">
               <i class="bi bi-chat-left-text-fill service-box-icon"></i>
               <h3 class="fw-bold">لورم ایپسوم</h3>
@@ -419,14 +462,18 @@
     <!-- SERVICES -->
 
     <!-- PRICING -->
-    <section class="pricing my-5">
+    <section class="pricing my-5 overflow-hidden">
       <div class="container">
         <div class="row">
-          <h2>قیمت ها</h2>
-          <p>لورم ایپسوم متن ساختگی</p>
+          <h2 data-aos="fade-up">قیمت ها</h2>
+          <p data-aos="fade-up">لورم ایپسوم متن ساختگی</p>
         </div>
         <div class="row g-4 text-center">
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-right"
+            data-aos-delay="100"
+          >
             <div class="card shadow">
               <div class="card-body">
                 <h4 class="fw-bold price-blue">پلن رایگان</h4>
@@ -451,7 +498,11 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-right"
+            data-aos-delay="200"
+          >
             <div class="card shadow">
               <div class="card-body">
                 <h4 class="fw-bold price-green">پلن اول</h4>
@@ -476,7 +527,11 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-right"
+            data-aos-delay="300"
+          >
             <div class="card shadow">
               <div class="card-body">
                 <h4 class="fw-bold price-orange">پلن دوم</h4>
@@ -501,7 +556,11 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-right"
+            data-aos-delay="400"
+          >
             <div class="card shadow">
               <div class="card-body">
                 <h4 class="fw-bold price-pink">پلن سوم</h4>
@@ -531,13 +590,13 @@
     <!-- PRICING -->
 
     <!-- CONTACT -->
-    <section class="contact">
+    <section class="contact overflow-hidden">
       <div class="container">
         <div class="row">
-          <h3 class="fw-bold text-center">ارتباط با ما</h3>
+          <h3 class="fw-bold text-center" data-aos="fade-up">ارتباط با ما</h3>
         </div>
         <div class="row g-3">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="row g-3">
               <div class="col-sm-6 text-sm-start text-center">
                 <div class="info-box">
@@ -570,7 +629,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <form class="contact-form">
               <div class="row g-2">
                 <div class="col-md-6">
@@ -605,10 +664,14 @@
     <!-- CONTACT -->
 
     <!-- FOOTER -->
-    <footer>
-      <div class="container my-5">
+    <footer class="overflow-hidden">
+      <div class="container mt-5">
         <div class="row">
-          <div class="col-lg-5 mb-4 mb-lg-0">
+          <div
+            class="col-lg-5 mb-4 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <h3 class="fw-bold">وب سایت مارکتینگ</h3>
             <p class="text-muter">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -621,7 +684,11 @@
               <i class="bi bi-linkedin text-secondary"></i>
             </div>
           </div>
-          <div class="col-lg-2 offset-lg-1 col-6">
+          <div
+            class="col-lg-2 offset-lg-1 col-6"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
             <h3>لینک ها</h3>
             <hr class="hr-secondary bg-primary" />
             <ul class="list-unstyled footer-links">
@@ -647,7 +714,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-2 col-6">
+          <div class="col-lg-2 col-6" data-aos="fade-up" data-aos-delay="200">
             <h3>محصولات</h3>
             <hr class="hr-secondary bg-primary" />
             <ul class="list-unstyled footer-links">
@@ -665,7 +732,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-2 col-6">
+          <div class="col-lg-2 col-6" data-aos="fade-up" data-aos-delay="250">
             <h3>همکاری</h3>
             <hr class="hr-secondary bg-primary" />
             <ul class="list-unstyled footer-links">
@@ -682,7 +749,9 @@
         </div>
       </div>
       <div class="container-fluid text-center p-3">
-        <h4 class="fw-bold">سعید رعیت مقدم</h3>
+        <h4 class="fw-bold">
+          سعید رعیت مقدم
+        </h4>
         <p>Bootstrap v5 - 2022</p>
       </div>
     </footer>
@@ -696,6 +765,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script>
       new PureCounter();
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
