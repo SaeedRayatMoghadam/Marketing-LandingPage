@@ -101,7 +101,6 @@ button.btn-intro:hover {
   transition: all 0.3s;
 }
 
-
 .services .service-box:hover > .service-box-icon {
   background-color: #fff;
 }
@@ -133,7 +132,6 @@ button.btn-intro:hover {
 }
 /* BOX-BLUE */
 
-
 /* BOX-ORANGE */
 .box-orange {
   border-bottom: 3px solid #f68c09;
@@ -153,7 +151,6 @@ button.btn-intro:hover {
   color: #fff;
 }
 /* BOX-ORANGE */
-
 
 /* BOX-GREEN */
 .box-green {
@@ -177,24 +174,22 @@ button.btn-intro:hover {
 
 /* SERVICES */
 
-
-
 /* PRICING */
-.price-blue{
+.price-blue {
   color: #07d5c0;
 }
-.price-green{
+.price-green {
   color: #65c600;
 }
-.price-orange{
+.price-orange {
   color: #ff901c;
 }
-.price-pink{
+.price-pink {
   color: #ff0071;
 }
 
 .pricing .card {
-  transition: all .2s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 .pricing .card:hover {
@@ -202,3 +197,26 @@ button.btn-intro:hover {
 }
 
 /* PRICING */
+
+/* CONTACT */
+.info-box {
+  background-color: #fafbff;
+  padding: 30px;
+}
+.info-box i {
+  font-size: 38px;
+  line-height: 0;
+  color: #4154f1;
+}
+
+.phone-number {
+  direction: ltr;
+  text-align: center;
+}
+
+.contact-form {
+  background-color: #fafbff;
+  padding: 20px;
+  height: 100%;
+}
+/* CONTACT */
