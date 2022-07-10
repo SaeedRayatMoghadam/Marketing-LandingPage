@@ -176,3 +176,29 @@ button.btn-intro:hover {
 /* BOX-GREEN */
 
 /* SERVICES */
+
+
+
+/* PRICING */
+.price-blue{
+  color: #07d5c0;
+}
+.price-green{
+  color: #65c600;
+}
+.price-orange{
+  color: #ff901c;
+}
+.price-pink{
+  color: #ff0071;
+}
+
+.pricing .card {
+  transition: all .2s;
+  cursor: pointer;
+}
+.pricing .card:hover {
+  transform: scale(1.03);
+}
+
+/* PRICING */
